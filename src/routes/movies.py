@@ -26,7 +26,7 @@ router = APIRouter()
     response_model=MovieListResponseSchema,
     summary="Get a paginated list of movies",
     description=(
-            "<h3>This endpoint retrieves a paginated list of movies from the database. "
+            "<h3>This endpoint retrieves a paginated list of all movies from the database. "
             "Clients can specify the `page` number and the number of items per page using `per_page`. "
             "The response includes details about the movies, total pages, and total items, "
             "along with links to the previous and next pages if applicable.</h3>"
